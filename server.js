@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
- res.send('<h1>Praktikum Azure App Service</h1><p>Aplikasi berjalan.</p>');
+ res.send('<h1>Praktikum Azure App Service</h1><p>Aplikasi berjalan.</p><p>Dyah Ayu Puspitosari-043.</p>');
 });
 
 app.get('/status', (req, res) => {
